@@ -8,7 +8,8 @@ int main()
     int i, posicaoEscolhida;
     float vetor[8];
 
-    for (i = 0, i < 8, i++){
+    for (i = 0, i < 8, i++)
+    {
         printf("Digite o %iº número: ", i + 1);
         scanf("%f", &vetor[i]);
     }
